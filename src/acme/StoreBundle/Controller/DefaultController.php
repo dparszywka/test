@@ -69,5 +69,7 @@ class DefaultController extends Controller
         $em->remove($product);
         $em->flush();
         return new Response();
+        
+        // test nic
     }
 }
